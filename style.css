@@ -111,6 +111,8 @@ body{
     display: none;
 }
 
+/* scroll-up button */
+
 .scroll-up-btn{
     position: fixed;
     height: 45px;
@@ -128,7 +130,7 @@ body{
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
-}
+} 
 
 .scroll-up-btn.show{
     opacity: 1;

@@ -12,6 +12,13 @@ $(document).ready(function(){
         }
     });
 
+
+    // window.scrollTo({
+    //     top: 0,
+    //     behavior: 'smooth'
+
+    // })
+
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
